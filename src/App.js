@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import EventMap from "./pages/EventMap";
+import HeroPage from "./pages/HeroPage";
+import Partners from "./pages/Partners";
+import Schedule from "./pages/Schedule";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HeroPage></HeroPage>
+      <Schedule></Schedule>
+      <EventMap></EventMap>
+      <Partners></Partners>
     </div>
   );
 }
