@@ -16,7 +16,7 @@ const Schedule = (props) => {
       <div className="grid gap-8 py-8 text-black justify-items-center content-center min-[840px]:grid-cols-3">
         <Card>
           <Data>18.05</Data>
-          <ul class="steps steps-vertical " data-aos="zoom-out-right">
+          <ul class="steps steps-vertical ">
             <li class=" step" data-content="">
               <p className="text-left">
                 <b>9:00 - 11:00</b> Turniej Tenisa Stołowego{" "}
@@ -54,7 +54,7 @@ const Schedule = (props) => {
         </Card>
         <div className="Card__background h-fit w-fit min-[840px]:mt-20 xl:w-10/12">
           <Data>19.05</Data>
-          <ul class="steps steps-vertical" data-aos="zoom-out-down">
+          <ul class="steps steps-vertical">
             <li class=" step" data-content="">
               <p className="font- text-left">
                 9:00 - 11:00 Turniej Tenisa Stołowego
@@ -87,9 +87,9 @@ const Schedule = (props) => {
             </li>
           </ul>
         </div>
-        <Card >
+        <Card>
           <Data>20.05</Data>
-          <ul class="steps steps-vertical" data-aos="zoom-out-left">
+          <ul class="steps steps-vertical">
             <li class=" step" data-content="">
               <p className="font- text-left">
                 9:00 - 11:00 Turniej Tenisa Stołowego{" "}

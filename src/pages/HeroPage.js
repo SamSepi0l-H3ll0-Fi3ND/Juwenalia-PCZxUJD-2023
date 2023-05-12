@@ -7,7 +7,7 @@ const HeroPage = (props) => {
     <div className="Main__background-img w-full h-screen">
       <Navbar></Navbar>
       <div className="flex justify-center mt-24">
-        <Logo  data-aos="fade-down" />
+        <Logo />
       </div>
     </div>
   );
