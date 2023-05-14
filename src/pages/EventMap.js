@@ -1,5 +1,5 @@
 import React from "react";
-import map from "../components/logos/Map.svg";
+import map from "../components/logos/NewMap.png";
 import CardMap from "../UI/CardMap";
 import Number from "../UI/Number";
 
@@ -12,8 +12,12 @@ const EventMap = () => {
         </p>
       </div>
       <div className="  flex flex-nowrap max-[840px]:flex-wrap md:mx-6">
-        <div className="w-full max-[400px]:mt-8 mt-4 mb-4" >
-          <img src={map} alt="map" />
+        <div className="w-full max-[400px]:mt-8 mt-4 mb-4">
+          <img
+            src={map}
+            alt="map"
+            className="border-2 rounded-xl border-current"
+          />
         </div>
         <CardMap>
           <div className="flex flex-nowrap mt-4 ml-4">
@@ -38,6 +42,12 @@ const EventMap = () => {
             <Number>04</Number>
             <p className="self-center text-white min-[400px]:text-3xl ml-4">
               Strefa imprezy masowej
+            </p>
+          </div>
+          <div className="flex flex-nowrap my-4 ml-4">
+            <Number>05</Number>
+            <p className="self-center text-white min-[400px]:text-3xl ml-4">
+              Stanowiska sponsorów
             </p>
           </div>
         </CardMap>
