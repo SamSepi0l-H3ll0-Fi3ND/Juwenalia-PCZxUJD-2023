@@ -48,7 +48,7 @@ const Navbar = (props) => {
       </div>
       <div className="navbar-center text-white  ">
         <ul className="flex min-[320px]:text-center max-[600px]:hidden space-x-2 md:space-x-4 lg:space-x-16 ">
-          <li className=" text-center   text-xl md:text-3xl lg:text-3xl">
+          <li className=" text-center text-xl md:text-2xl lg:text-3xl">
             <AnchorLink href="#mapa">Mapa</AnchorLink>
           </li>
           <li className=" text-center text-xl md:text-2xl lg:text-3xl">

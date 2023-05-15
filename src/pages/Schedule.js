@@ -24,30 +24,28 @@ const Schedule = (props) => {
             </li>
             <li class="step" data-content="">
               <p className="text-left ">
-                <b> 10:00 - 11:00</b> Rozgrywki finałowe Turnieju Mikstów
+                <b> 10:00 - 11:00</b> Mecz finałowy Turnieju Mikstów
                 Siatkarskich{" "}
               </p>
             </li>
             <li class="step" data-content="">
               <p className=" text-left ">
-                <b>11:00</b> - Pokaz koła teatralnego UJD{" "}
+                <b>11:00 - 11:05</b> Pokaz koła teatralnego UJD{" "}
               </p>
             </li>
             <li class="step" data-content="">
               <p className=" text-left ">
-                <b>11:10</b> - Rozdanie nagród dla zwycięzców{" "}
+                <b>11:10 - 11:20</b> Rozdanie nagród dla zwycięzców{" "}
               </p>
             </li>
             <li class="step" data-content="">
               <p className="text-left ">
-                <b>11:30 - 13:00</b> Zabawa sprawnościowa dla trzyosobowych
-                zespołów “Sprawni jak Ninja”, w której zostaną wyłonieni
-                najsprawniejsi studenci
+                <b>11:30 - 13:00</b> Wyścig "Sprawni jak ninja"
               </p>
             </li>
             <li class="step" data-content="">
               <p className="text-left ">
-                <b>13:00</b> Turniej Bilardowy{" "}
+                <b>13:00</b> Turniej Bilardowy / Gra Boccia
               </p>
             </li>
             <li class="step" data-content="">
@@ -98,6 +96,20 @@ const Schedule = (props) => {
                       określonych punktach, takich jak ratusz, miejskie place
                       czy inne ważne lokalizacje. Korowody studenckie mają
                       charakter radosny i są pełne entuzjazmu.
+                      <p className="text-white">
+                        Zapraszamy do udziału w konkursie na najlepsze
+                        przebranie w korowodzie{" "}
+                        <p
+                          className="cursor-pointer"
+                          onClick={() =>
+                            window.open(
+                              "https://drive.google.com/file/d/17Pyjfe6bueygaZrqp_T2idO-3CG_5Uiw/view?usp=share_link"
+                            )
+                          }
+                        >
+                          [REGULAMIN]
+                        </p>
+                      </p>
                     </p>
                   </div>
                 </div>
@@ -161,10 +173,33 @@ const Schedule = (props) => {
                       punktach na terenie miasta. Na juwenaliach drużyny będą
                       poruszać się po terenie kampusu Politechniki
                       Częstochowskiej oraz Uniwersytetu Jana Długosza.
+                      <p
+                        className="cursor-pointer"
+                        onClick={() =>
+                          window.open(
+                            "https://drive.google.com/file/d/17mHqqgbtDTEwh42EWKIii9FlZ1IVSH9p/view?usp=share_link"
+                          )
+                        }
+                      >
+                        [REGULAMIN]
+                      </p>
                       <p className="font-bold">Konkursy</p>
                       Podczas imprezy zostaną zorganizowane różne konkursy gdzie
                       do wygrania będą nagrody ufundowane przez naszych
                       sponsorów.
+                      <p className="text-white">
+                        Zapraszamy do udziału w konkursie na flanki.
+                        <p
+                          className="cursor-pointer"
+                          onClick={() =>
+                            window.open(
+                              "https://drive.google.com/file/d/1yBPzNCMP5yPEduBUGvjV7oQgz7ck7pPV/view?usp=share_link"
+                            )
+                          }
+                        >
+                          [REGULAMIN]
+                        </p>
+                      </p>
                     </p>
                   </div>
                 </div>

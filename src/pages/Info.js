@@ -101,6 +101,7 @@ const Info = () => {
               <Role>Koordynator technicznych</Role>
             </Person>
           </div>
+          
         </Card>
 
         <Card>
