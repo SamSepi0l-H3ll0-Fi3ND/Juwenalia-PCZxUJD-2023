@@ -13,7 +13,7 @@ const Schedule = (props) => {
           Harmonogram imprezy
         </p>
       </div>
-      <div className="grid gap-8 py-8 min-[840px]:mx-4 text-black justify-items-center content-center min-[840px]:grid-cols-3">
+      <div className="grid gap-8 py-8 text-black justify-items-center content-center min-[840px]:grid-cols-3">
         <Card>
           <Data>18.05</Data>
           <ul class="steps steps-vertical  ">
@@ -55,7 +55,7 @@ const Schedule = (props) => {
             </li>
           </ul>
         </Card>
-        <div className="Card__background h-fit w-fit min-[840px]:mt-20 ">
+        <div className="Card__background h-fit w-full min-[840px]:mt-20 ">
           <Data>19.05</Data>
           <p className="text-center font-italic font-bold text-2xl underline underline-offset-4 decoration-pink-500 uppercase ">
             start 15:00
@@ -86,7 +86,7 @@ const Schedule = (props) => {
                 </label>
                 <div
                   tabindex="0"
-                  class="card compact dropdown-content shadow bg-purple-main rounded-box w-64"
+                  class="card compact dropdown-content shadow bg-purple-main rounded-box w-full"
                 >
                   <div class="card-body">
                     <p className="text-white">
@@ -140,30 +140,32 @@ const Schedule = (props) => {
           <p className="text-center font-italic font-bold text-2xl underline underline-offset-4 decoration-pink-500 uppercase ">
             start 16:00
           </p>
-          <ul class="steps steps-vertical">
+          <ul class="steps p-4 steps-vertical">
             <li class="step" data-content="">
               <div class="dropdown dropdown-end">
                 <label tabindex="0" class="">
                   <div className="inline-flex items-baseline">
-                    <p className="text-2xl text-left">Gra miejska/Konkursy</p>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      class="w-4 h-4 ml-2 stroke-current inline-flex"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                      ></path>
-                    </svg>
+                    <p className="text-2xl text-left">
+                      Gra miejska / Konkursy {" "}
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        class="inline-flex w-4 h-4  stroke-current "
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                        ></path>
+                      </svg>
+                    </p>
                   </div>
                 </label>
                 <div
                   tabindex="0"
-                  class="card compact dropdown-content shadow bg-purple-main rounded-box w-64"
+                  class="card compact dropdown-content shadow bg-purple-main rounded-box w-full overflow-y-auto no-scrollbar h-96"
                 >
                   <div class="card-body">
                     <p className="text-white">
