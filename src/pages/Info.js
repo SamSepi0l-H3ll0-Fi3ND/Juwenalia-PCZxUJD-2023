@@ -101,7 +101,6 @@ const Info = () => {
               <Role>Koordynator technicznych</Role>
             </Person>
           </div>
-          
         </Card>
 
         <Card>
@@ -119,21 +118,15 @@ const Info = () => {
               regulaminu oraz poleceń organizatora.
             </li>
             <li>
-              Ewentualne naruszenie regulaminu lub stwarzanie zagrożenia przez
-              uczestników imprezy skutkuje usunięciem ich z imprezy.
+              Dozwolone przedmioty i substancje na terenie imprezy są ściśle
+              określone, a uczestnicy nie mogą używać niebezpiecznych
+              przedmiotów lub substancji, takich jak fajerwerki, petardy, czy
+              narkotyki
             </li>
             <li>
-              Bezpieczeństwo jest priorytetem imprezy, na terenie imprezy
-              zabronione jest posiadanie i spożywanie alkoholu przez osoby
-              niepełnoletnie.
-            </li>
-            <li>
-              Aby zapewnić bezpieczeństwo uczestników, obowiązuje szereg zasad i
-              zakazów, w tym zakaz wchodzenia na zamknięte obszary.
-            </li>
-            <li>
-              Czystość i porządek przede wszystkim, każdy uczestnik powinien
-              wyrzucać śmieci do odpowiednich pojemników.
+              W przypadku jeśli uczestnik imprezy zauważy niebezpieczną
+              sytuację, wypadek, zaginięcie, itp., powinien jak najszybciej
+              zgłosić to odpowiednim służbom na terenie imprezy.
             </li>
             <li>
               Uczestnicy imprezy unikają niebezpiecznych zachowań, takich jak
@@ -141,15 +134,21 @@ const Info = () => {
               obszarach, dbając o swoje osobiste bezpieczeństwo.
             </li>
             <li>
-              Jeżeli uczestnik imprezy zauważy niebezpieczną sytuację, wypadek,
-              zaginięcie, itp., powinien jak najszybciej zgłosić to odpowiednim
-              służbom na terenie imprezy.
+              Czystość i porządek przede wszystkim, każdy uczestnik powinien
+              wyrzucać śmieci do odpowiednich pojemników.
             </li>
             <li>
-              Dozwolone przedmioty i substancje na terenie imprezy są ściśle
-              określone, a uczestnicy nie mogą używać niebezpiecznych
-              przedmiotów lub substancji, takich jak fajerwerki, petardy, czy
-              narkotyki
+              Aby zapewnić bezpieczeństwo uczestników, obowiązuje szereg zasad i
+              zakazów, w tym zakaz wchodzenia na zamknięte obszary.
+            </li>
+            <li>
+              Bezpieczeństwo jest priorytetem imprezy, na terenie imprezy
+              zabronione jest posiadanie i spożywanie alkoholu przez osoby
+              niepełnoletnie.
+            </li>
+            <li>
+              Naruszenie regulaminu lub stwarzanie zagrożenia przez uczestników
+              imprezy skutkuje usunięciem ich z imprezy.
             </li>
           </ul>
           <p
